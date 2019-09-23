@@ -1,8 +1,10 @@
 # ### Problem 7:
 # Create the class Books with name, rating, genre, and author properties/attributes. Create a class method that will change the rating of the book. Outside of the class, create three objects of the class Book and put them in an array. Lastly, USING THE ARRAY print only the names of the books using any method we’ve learned in class.
-
+# line 14, in <module>
+# book1 = Books("Programmng Python", 10, "Non-Fiction", "Kenn")
+# TypeError  object() takes no parameters
 class Books:
-    def _init_(self, name, rating, genre, author):
+    def _init_(self, name, rating, genre, author): #you need to use two underscores not just one on each side
         self.name = name
         self.rating = rating
         self.genre = genre

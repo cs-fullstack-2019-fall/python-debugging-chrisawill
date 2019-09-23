@@ -1,12 +1,17 @@
 # ### Problem 10:
 # Create a new empty array called pet_list. Create a Pet class with a type and breed attribute/property. Include a method that will print each attribute/property. Add 3 pet objects to the pet_list array. Print the attributes/properties for each pet.
+# line 9
+# def printAllAttributes[self]:
+#                       ^
+# SyntaxError: invalid syntax
+
 
 class Pet:
     def __init__(self, type, breed):
         self.type = type
         self.breed = breed
 
-    def printAllAttributes[self]:
+    def printAllAttributes[self]:    #you need parenthesis surrounding your self here. Not brackets
         print(F"The type is: {self.type}. The breed is: {self.breed}")
 
 emptyArray = []
